@@ -1,0 +1,22 @@
+codigo = input("Código del estudiante: ")
+nombre = input("Nombre completo: ")
+edad = int(input("Edad: "))
+programa = input("Programa académico: ")
+semestre = int(input("Semestre: "))
+materias = int(input("Número de materias: "))
+valor_materia = float(input("Valor de cada materia: "))
+
+total_matricula = materias * valor_materia
+
+print("=================================")
+print("     REGISTRO DE MATRÍCULA")
+print("=================================")
+print("Código:", codigo)
+print("Estudiante:", nombre)
+print("Edad:", edad)
+print("Programa:", programa)
+print("Semestre:", semestre)
+print("Materias:", materias)
+print("Valor por materia:", valor_materia)
+print("Total matrícula:", total_matricula)
+print("=================================")
